@@ -12,7 +12,7 @@ const data = {
             priceNow: "ESGOTADO",
             overview: "Choker Ponto de Luz 40cm. Um colar com um design exclusivo e com cada detalhe pensado para completar e trazer mais beleza ao estilo de cada mulher.",
             parcel: "5x de R$ 11,99",
-            buy: "https://wa.link/f4z9yt"
+            buy: "https://wa.link/emwexs"
         },
         /*{
             id: 3,
@@ -38,7 +38,7 @@ const data = {
             priceNow: "R$ 114,99",
             overview: "Corrente Pingente de Lua 45cm. Uma joia que lembra o céu, o lugar mais lindo e misterioso que temos, essa prata com certeza irá lhe admirar.",
             parcel: "5x de R$ 22,99",
-            buy: "https://wa.link/haue93"
+            buy: "https://wa.link/kf7g05"
         },
         {
             id: 5,
@@ -51,7 +51,7 @@ const data = {
             priceNow: "R$ 55,99",
             overview: "Argola Meia Cana Grossa 2cm. O brinco de argola em prata é uma peça queridinha e indispensável no porta-joias.",
             parcel: "5x de 11,20",
-            buy: "https://wa.link/z6i5rv"
+            buy: "https://wa.link/h9tc3z"
         },
         {
             id: 6,
@@ -64,7 +64,7 @@ const data = {
             priceNow: "R$ 85,99",
             overview: "Piercing Palito Com Estrela. Perfeito para quem gosta de looks ousados e modernos. Design minimalista perfeito para montar diversas combinações incríveis, inspire-se e surpreenda-se",
             parcel: "5x de 17,20",
-            buy: "https://wa.link/niwkzq"
+            buy: "https://wa.link/ev1j08"
         },
         {
             id: 7,
