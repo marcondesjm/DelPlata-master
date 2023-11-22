@@ -1,0 +1,120 @@
+.container-catalog{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.card-product{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    width: 300px;
+    height: 320px;
+    margin-top: 5em;
+    box-shadow: 0 0 20px var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.4s;
+    text-align: center;
+}
+.card-product a{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.card-product:hover{
+    transform: scale(1.1);
+}
+.image-product{
+    width: 140px;
+    height: 170px;
+    margin-bottom: 0.7em;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-product strong{
+    margin-top: 0em;
+    font-size: 1.2em;
+}
+
+.card-product p:nth-child(3){
+    font-size: 1.2em;
+    margin-bottom: 0;
+    text-decoration: line-through;
+    color: var(--color-silver);
+}
+.card-product p:nth-child(4){
+    margin: 0;
+    font-size: 1.6em;
+}
+
+/* --- Grandes Telas --- */
+@media screen and (min-width: 1024px) and (max-width: 1268px){
+    .card-product{
+        width: 300px;
+        height: 350px;
+    }
+
+    .image-product{
+        width: 160px;
+        height: 200px;
+    }
+}
+
+/* --- Médias Telas --- */
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .card-product{
+        height: 320px;
+        width: 200px;
+    }
+
+    .card-product strong{
+        margin: 0;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .image-product{
+        width: 150px;
+        height: 180px;
+    }
+
+    .card-product p:nth-child(3){
+        font-size: 1.2em;
+    }
+    .card-product p:nth-child(4){
+        font-size: 1.6em;
+    }
+}
+
+/* --- Mobiles --- */
+@media screen and (max-width: 500px) {
+    .container-catalog{
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .card-product{
+        width: 170px;
+        height: 210px;
+        margin-top: 1.5em;
+    }
+    .card-product strong{
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .image-product{
+        width: 100px;
+        height: 13vh;
+    }
+
+    .card-product p:nth-child(3){
+        font-size: 0.8em;
+    }
+    .card-product p:nth-child(4){
+        font-size: 1em;
+    }
+}

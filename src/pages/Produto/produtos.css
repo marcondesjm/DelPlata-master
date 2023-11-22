@@ -1,0 +1,201 @@
+.container-product{
+    display: flex;
+    column-gap: 100px;
+    margin: 5em auto;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.carousel{
+    width: 400px;
+    height: 460px;
+    margin: auto;
+    margin: 0;
+    position: relative;
+}
+
+.tink-img{
+    width: 400px;
+    height: 460px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 460px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*#95a5a6*/
+}
+
+.btn button{
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.btn button:hover{
+    background: #95a5a6;
+}
+
+.container-product strong{
+    font-size: 2.5em;
+}
+
+#title-mobile{
+    display: none;
+}
+
+.container-product p:nth-child(2){
+    width: 400px;
+    font-size: 1.3em;
+}
+
+.container-product p:nth-child(4){
+    text-decoration: line-through;
+    color: #777272;
+    font-size: 1.6em;
+    margin-bottom: 0;
+}
+
+.container-product p:nth-child(5){
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.container-product p:nth-child(6){
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.container-product .silver{
+    background-color: var(--color-silver);
+    padding: 3% 0;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.container-product .buy-product{
+    background-color: #17D817;
+    color: #fff;
+    border: 0;
+    padding: 3% 0;
+    width: 150px;
+    border-radius: 0.5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.container-product .product-off{
+    background-color: var(--color-silver);
+    color: #fff;
+    border: 0;
+    padding: 3% 0;
+    width: 150px;
+    border-radius: 0.5em;
+    font-size: 1.3em;
+    cursor: not-allowed;
+}
+
+/* --- Grandes Telas --- */
+@media screen and (min-width: 1024px) and (max-width: 1268px){
+    .container-product{
+        column-gap: 50px;
+    }
+    .container-product strong{
+        font-size: 1.7em;
+    }
+}
+
+/* --- Médias Telas --- */
+@media screen and (min-width: 668px) and (max-width: 1023px){
+    .container-product{
+        column-gap: 30px;
+    }
+    .container-product strong{
+        font-size: 1.3em;
+    }
+    .container-product p:nth-child(2){
+        width: 280px;
+        font-size: 1em;
+    }
+    #title-mobile{
+        display: none;
+    }
+    .carousel{
+        width: 300px;
+        height: 350px;
+        margin: 0;
+    }
+    .btn{
+        width: 300px;
+        height: 350px;
+    }
+    .container-product .tink-img{
+        width: 300px;
+        height: 350px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* --- Mobiles --- */
+@media screen and (max-width: 500px){
+    .container-product{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 2em;
+    }
+    #title-mobile{
+        display: flex;
+        font-size: 19px;
+        justify-content: center;
+        text-align: center;
+    }
+    #title-pc{
+        display: none;
+    }
+    .carousel{
+        width: 320px;
+        height: 300px;
+        margin-bottom: 4em;
+    }
+    .btn{
+        width: 320px;
+        height: 380px;
+    }
+    .container-product .tink-img{
+        width: 320px;
+        height: 300px;
+    }
+    .container-product strong{
+        font-size: 1.5em;
+        text-align: center;
+        display: block;
+    }
+
+    .container-product p:nth-child(2){
+        width: 80vw;
+    }
+
+    .container-product .buy-product{
+        width: 80vw;
+        border-radius: 0.5em;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+}
