@@ -44,7 +44,7 @@ export default function Footer () {
         <div className='icons-socials'>
             <img src={logo} className='logo-img'/> 
 
-                <p>Lady Biju &copy; 2023
+                <p>Paty Biju &copy; 2023
                     <p>Feito por <Link to="https://marcondesjm.github.io/portfolio/">Marcondes Machado</Link></p>
                 </p>
 
